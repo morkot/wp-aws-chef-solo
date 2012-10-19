@@ -9,7 +9,7 @@
     "recipe[wp]"
   ],
   "php"    : { "conf_dir" : "/etc/" },
-  "mysql"  : { "server_root_password" : "ie0AiquaiX",
+  "mysql"  : { "server_root_password" : "xxxie0AiquaiX",
 	       "service_name" : "mysqld",
 	       "platform" : "amazon" }
 }
