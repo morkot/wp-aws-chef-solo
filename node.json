@@ -1,0 +1,15 @@
+{
+  "run_list": [
+    "recipe[php::package]",
+    "recipe[php::module_mysql]",
+    "recipe[apache2]",
+    "recipe[apache2::mod_php5]",
+    "recipe[subversion]",
+    "recipe[mysql::server]",
+    "recipe[wp]"
+  ],
+  "php"    : { "conf_dir" : "/etc/" },
+  "mysql"  : { "server_root_password" : "ie0AiquaiX",
+	       "service_name" : "mysqld",
+	       "platform" : "amazon" }
+}
