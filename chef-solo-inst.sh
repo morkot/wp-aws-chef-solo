@@ -8,7 +8,8 @@ SOLODIR="/var/chef-solo"
 CFGDIR="$SOLODIR/wp-aws-chef-solo"
 
 #install Chef 
-rpm -ivh http://opscode-omnitruck-release.s3.amazonaws.com/el/6/x86_64/chef-10.14.4-2.el6.x86_64.rpm
+#rpm -ivh http://opscode-omnitruck-release.s3.amazonaws.com/el/6/x86_64/chef-10.14.4-2.el6.x86_64.rpm
+curl -L https://www.opscode.com/chef/install.sh | bash
 
 #install git
 yum -y install git
